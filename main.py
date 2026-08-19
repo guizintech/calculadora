@@ -7,7 +7,7 @@ ctk.set_default_color_theme("blue")
 
 app = ctk.CTk()
 app.geometry("420x760")
-app.title("Nova Calculator")
+app.title("Calculadora V2")
 app.resizable(False, False)
 
 BG = "#070707"
@@ -35,7 +35,7 @@ header.pack(fill="x", pady=(15, 0), padx=20)
 
 title = ctk.CTkLabel(
     header,
-    text="CALC V1",
+    text="CALC V2",
     font=("Segoe UI", 30, "bold"),
     text_color=BLUE
 )
